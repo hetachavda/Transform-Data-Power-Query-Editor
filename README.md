@@ -8,7 +8,7 @@ It covers **predictive** and **prescriptive analytics** using **Power BI, Python
 
 ## 🚀 Project Components
 
-### 🔹 1. Bike Sharing Analysis :contentReference[oaicite:2]{index=2}
+### 🔹 1. Bike Sharing Analysis
 - **Objective**: Perform predictive & prescriptive analysis on bike rental data to uncover demand patterns and optimize operations.  
 - **Key Features**:
   - Seasonal and weather-based rental trends
@@ -19,7 +19,7 @@ It covers **predictive** and **prescriptive analytics** using **Power BI, Python
 
 ---
 
-### 🔹 2. House Prices Analysis :contentReference[oaicite:3]{index=3}
+### 🔹 2. House Prices Analysis
 - **Objective**: Predict house prices using advanced statistical and ML techniques.  
 - **Key Features**:
   - Data preprocessing (handling missing values & outliers)
