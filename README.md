@@ -1,4 +1,4 @@
-<img width="545" height="53" alt="image" src="https://github.com/user-attachments/assets/262dbab5-5eee-4918-9851-50ee19bbfcd2" />
+
 # 📊 Data Warehousing & Visualization – Final Project
 
 This repository contains my final project for **Winter 2025 – Data Warehousing & Visualization** at the **University of Niagara Falls**.  
