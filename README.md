@@ -1,63 +1,87 @@
+# 📊 Predictive & Prescriptive Analysis  
 
-# 📊 Data Warehousing & Visualization – Final Project
+**Course:** Data Warehousing & Visualization (Winter 2025)  
+**Submitted by:** Heta Chavda (NF1014555)  
 
-This repository contains my final project for **Winter 2025 – Data Warehousing & Visualization** at the **University of Niagara Falls**.  
-It covers **predictive** and **prescriptive analytics** using **Power BI, Python, and statistical methods**, applied to real-world datasets.
+This project consists of two case studies:  
+1. 🏡 **Housing Price Prediction (Predictive Analysis)**  
+2. 🚴 **Bike Sharing Rentals (Prescriptive Analysis)**  
 
----
-
-## 🚀 Project Components
-
-### 🔹 1. Bike Sharing Analysis
-- **Objective**: Perform predictive & prescriptive analysis on bike rental data to uncover demand patterns and optimize operations.  
-- **Key Features**:
-  - Seasonal and weather-based rental trends
-  - Feature engineering (time, weather, user behavior)
-  - Skewness, outlier detection, and transformations
-  - Exported **cleaned dataset** for Power BI dashboards
-- **Tools**: Python (EDA & preprocessing), Power BI (dashboards), DAX, Power Query
+Both were implemented with **Python (EDA, preprocessing)** and **Power BI (dashboards)** to generate actionable business insights.  
 
 ---
 
-### 🔹 2. House Prices Analysis
-- **Objective**: Predict house prices using advanced statistical and ML techniques.  
-- **Key Features**:
-  - Data preprocessing (handling missing values & outliers)
-  - Feature engineering (location, size, amenities)
-  - Predictive modeling with regression & visualization
-  - Insights for real estate decision-making
-- **Tools**: Python (Pandas, Scikit-learn), Power BI (visual reports)
+## 🏡 Part 1 – Predictive Analysis: Housing Prices  
+
+### 📌 Objective  
+Build a predictive model to estimate **housing prices** based on property characteristics, location, and market conditions.  
+
+### 📂 Dataset  
+- ~1,460 property records  
+- Features: lot area, year built, quality, rooms, basement size, garage, neighborhood, sale year  
+- Target variable: **Sale Price**  
+
+### 🛠️ Methods  
+- **Data Cleaning & Imputation** → Handled missing values using mean/median/mode  
+- **Feature Engineering** → Encoded categorical features, added time-based features  
+- **Exploratory Analysis**:  
+  - Histogram of sale prices  
+  - Scatter plots (lot area vs. sale price, year built vs. price)  
+  - Donut chart of overall quality distribution  
+  - Interactive filters in Power BI for dynamic exploration  
+
+### 📊 Key Findings  
+- Newer and larger homes with higher overall quality → **significantly higher prices**.  
+- Sale price volatility observed during **2006–2010**, capturing impact of the 2008 financial crisis.  
+- Lot size correlates with price, but other factors (quality, neighborhood) are stronger predictors.  
+
+✅ **Conclusion:** Location, property size, and quality are the **primary drivers of property value**, and these insights can help investors and real estate professionals optimize pricing strategies:contentReference[oaicite:1]{index=1}.  
 
 ---
 
-### 🔹 3. Visualization & Dashboarding
-- Interactive dashboards in **Power BI**
-- Prescriptive insights for decision support
-- Business-ready visuals (seasonal demand, pricing strategies, KPI tracking)
+## 🚴 Part 2 – Prescriptive Analysis: Bike Sharing  
+
+### 📌 Objective  
+Analyze **bike rental demand** to identify trends, seasonal impacts, and operational strategies for optimizing bike-sharing services.  
+
+### 📂 Dataset  
+- **731 daily records (2011–2012)**  
+- Features: date, season, weather, temperature, humidity, windspeed, casual users, registered users, total rentals  
+
+### 🔎 Analysis Perspectives  
+- **Temporal Trends**: Rentals increase year-on-year, peak in summer, dip in winter  
+- **Weekdays vs. Holidays**: Higher rentals on weekdays (work commutes); holidays show leisure-based usage  
+- **Weather Impact**:  
+  - Clear days → highest rentals  
+  - Rain/Snow & extreme humidity → sharp drop in rentals  
+- **User Segments**:  
+  - Registered users dominate on weekdays  
+  - Casual users peak on weekends  
+
+### 📊 Visualizations  
+- Line chart of rentals over time (bell curve peak in summer)  
+- Scatter plots showing weather vs. rental counts  
+- Bar charts for user type comparison  
+- Seasonal trend dashboards in Power BI  
+
+### ✅ Prescriptive Insights  
+- Increase bike availability in **summer & spring months**.  
+- Offer **incentives during winter/off-peak** periods.  
+- Schedule **maintenance during low-demand months**.  
+- Target promotions to **casual users on weekends/holidays** .  
 
 ---
 
-## ⚙️ Tools & Technologies
-- **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- **Visualization**: Power BI, DAX, Power Query
-- **Data**: Bike Sharing Dataset, Housing Market Dataset
-- **Other**: Excel/CSV for preprocessing
+## 🛠️ Tools & Technologies  
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn) – preprocessing & EDA  
+- **Power BI** – interactive dashboards for predictive & prescriptive insights  
+- **Jupyter Notebook / HTML Export** – workflow documentation  
 
 ---
 
-## ✨ Key Insights
-- **Bike Sharing**: Rentals are highly influenced by season, weather, and weekdays. Demand peaks during summer and working days.  
-- **House Prices**: Location, size, and amenities are primary drivers of property value. Predictive models improve pricing strategies.  
-- **Prescriptive Takeaway**: Businesses can optimize resources, improve pricing, and enhance customer satisfaction by leveraging data-driven decisions.
+## 📌 Overall Conclusion  
+- The **Housing Price dashboard** enables better **property valuation & investment strategies**.  
+- The **Bike Sharing dashboard** supports **operational planning & seasonal demand management**.  
+- Together, these case studies show how **predictive and prescriptive analytics** transform raw datasets into actionable business intelligence.  
 
 ---
-
-## 👩‍🎓 Author
-- **Heta Chavda (NF1014555)**
-- **Krishna Patel**
-- **Rohit Kumar**
-
----
-
-⭐ If you find this project useful, feel free to **star this repository**!
-```
